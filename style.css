@@ -1,0 +1,117 @@
+html {
+  font-family: Open Sans, sans-serif;
+  background-color: grey;
+  color: #FFFAFA;
+  width:100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+  background-color: #262626;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#main-nav {
+  display: flex;
+  margin: inherit;
+  margin-right: 15px;
+}
+
+#main-nav li{
+  padding: 0 10px;
+}
+
+#initiales {
+  font-weight: bold;
+  font-size: 22px;
+  color: #F0FF00;
+  margin-left: 15px;
+}
+
+body {
+  margin: inherit;
+  }
+
+a { /* Liens par défaut (non survolés) */
+  color: #FFFFF0;
+  text-decoration: none;
+}
+
+a:hover { /* Apparence au survol des liens */
+  opacity: 0.7;
+  transition: 0.3s
+}
+
+h2 {
+  color: #F0F000;
+  font-size: 3em;
+  line-height: inherit;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  padding: 2em 0;
+}
+
+.intitule {
+  font-weight: bold;
+  text-transform : uppercase;
+
+}
+
+.date {
+  opacity: 0.7;
+}
+
+p {
+  margin: inherit;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+footer {
+  padding: 10px 0;
+  align-items: center;
+  background-color: #262626;
+  margin: inherit;
+}
+
+.logo_mail {
+  width: 184px;
+  height: auto;
+}
+
+#logos_contacts {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+#infos {
+  opacity: 0.5;
+  font-size: small;
+}
+
+.presentation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.presentation2 {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  margin-right: 2em;
+}
